@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.div__header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    border: 1px solid rgba(01, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(100, 0, 0, 0.1);
+    padding: 24px;
+}
+
+.div__elem-1 {
+    width: 350px;
+    /* height: 200px; */
+    text-align: center;
+    background-color: rgba(10, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div__elem-1 img {
+    width: 120px;
+    transition-property: 1s;
+    transition-duration: 1s;
+}
+
+.div__elem-2 {
+    width: 350px;
+    /* height: 200px; */
+    text-align: center;
+    background-color: rgba(10, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div__elem-2 img {
+    width: 120px;
+    transition-property: 1s;
+    transition-duration: 1s;
+}
+
+.div__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__two__btn button {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 0px 0px 100px 0px;
+    color: #000;
+}
+
+.two button {
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.night {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    background: rgb(85, 83, 83);
+    transition: 1s;
+}
+
+.morning {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    background: rgb(#fff);
+    transition: 1s;
+}
+
+.div__elem-1 img:hover {
+    cursor: zoom-in;
+    transition-property: 1s;
+    transition-duration: 1.5s;
+    border-radius: 100px;
+    width: 200px;
+}
+
+.div__elem-2 img:hover {
+    cursor: zoom-in;
+    transition-property: 1s;
+    transition-duration: 1.5s;
+    width: 200px;
+    border-radius: 100px;
+}
